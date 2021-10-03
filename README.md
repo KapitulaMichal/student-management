@@ -1,6 +1,6 @@
-Student management
+# Student management
 
-Application presents simple student management system for gathering the list of students and courses to which those students are enrolled and saving those information in the database.
+Application presents simple student management system for gathering the list of students and courses to which those students are enrolled and saving those information in the database. It uses an annotation based configuration.
 
 ## TOOLS & TECHNOLOGIES
 	1. Java
