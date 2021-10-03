@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	background-color: #18191A !important;
+	color: white !important;
+}
+
+h1{
+	color: white !important;
+	margin-top: 25px !important;
+}
+
+.modal-content{
+	background-color: #18191A !important;
+	color: white;
+	width: 2000px;
+}
+
+.error{
+	color: red;			
+}
+
+.navbar{
+	background-color: #18191A !important;
+	color: white;
+}
