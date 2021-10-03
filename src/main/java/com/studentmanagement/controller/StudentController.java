@@ -1,6 +1,5 @@
-package com.studentmanagement.controllers;
+package com.studentmanagement.controller;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
@@ -25,26 +24,6 @@ public class StudentController {
 
 	@Autowired
 	StudentService studentService;
-
-	@GetMapping("/hello")
-	public String showHello() {
-
-		Student student = new Student();
-
-		student.setId(0);
-		student.setName("eeee");
-		student.setSurname("EEEE");
-		student.setDateOfBirth(LocalDate.parse("1993-09-29"));
-		student.setPhone(555555555L);
-
-//		studentService.updateStudent(student);
-
-		studentService.saveStudent(student);
-
-//		studentService.deleteStudent(4);
-
-		return "hello";
-	}
 
 	@GetMapping("students")
 	public String showStudents(Model model, HttpSession session) {

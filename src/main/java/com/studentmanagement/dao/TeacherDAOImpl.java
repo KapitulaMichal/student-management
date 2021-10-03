@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.studentmanagement.api.Login;
 import com.studentmanagement.api.Teacher;
-import com.studentmanagement.rowmappers.TeacherRowMapper;
+import com.studentmanagement.rowmapper.TeacherRowMapper;
 
 @Repository
 public class TeacherDAOImpl implements TeacherDAO {

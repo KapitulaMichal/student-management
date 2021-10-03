@@ -1,7 +1,5 @@
 package com.studentmanagement.api;
 
-import java.util.Arrays;
-
 public class Login {
 
 	String email;

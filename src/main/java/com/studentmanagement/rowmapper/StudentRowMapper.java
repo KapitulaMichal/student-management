@@ -1,4 +1,4 @@
-package com.studentmanagement.rowmappers;
+package com.studentmanagement.rowmapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

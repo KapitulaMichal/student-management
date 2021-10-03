@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import com.studentmanagement.api.Course;
 import com.studentmanagement.api.Student;
-import com.studentmanagement.rowmappers.StudentRowMapper;
+import com.studentmanagement.rowmapper.StudentRowMapper;
 
 @Repository
 public class CourseDAOImpl implements CourseDAO {

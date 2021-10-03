@@ -1,4 +1,4 @@
-package com.studentmanagement.controllers;
+package com.studentmanagement.controller;
 
 import java.util.List;
 
@@ -9,13 +9,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.studentmanagement.api.Course;
 import com.studentmanagement.api.Student;
 import com.studentmanagement.api.Teacher;
 import com.studentmanagement.service.CourseService;
-import com.studentmanagement.service.StudentService;
 
 @Controller
 public class CourseController {

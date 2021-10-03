@@ -1,4 +1,4 @@
-package com.studentmanagement.controllers;
+package com.studentmanagement.controller;
 
 import javax.servlet.http.HttpSession;
 
